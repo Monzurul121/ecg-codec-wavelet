@@ -1,0 +1,26 @@
+# Python bytecode: compiled copies of source code. Never commit these.
+__pycache__/
+*.py[cod]
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data, results and model files stay out of this repository
+data/
+result/
+results/
+reconstructed/
+cache/
+*.npz
+*.npy
+*.pt
+*.pth
+*.h5
+*.keras
+*.joblib
+*.pkl
+
+# Environments and secrets
+.env
+.venv/
+venv/
